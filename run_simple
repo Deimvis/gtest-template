@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+clang++ -std=c++17 main.cpp helpers.cpp -o r
+./r
+rm r
